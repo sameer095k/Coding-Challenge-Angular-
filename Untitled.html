@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Coding Challenge</title>
+  <base href="/">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  <style>
+  	box {
+  	display: flex;
+  	justify-content: center;
+   	margin:  auto;
+  	height: 100%;
+ 	width: 100%;
+ 	position: relative;
+
+    }
+
+
+	div {
+    background-color: lightgrey;
+    width: 50px;
+    height: 50px;
+    border: 10px solid green;
+     margin: auto;
+
+	}
+	</style>
+
+</head>
+<body>
+<box>
+	<div></div> <div></div> <div></div> <div></div>
+	</box>
+	<box> <div></div>	<div></div> <div></div> <div></div> </box>
+	<box>	<div></div> </box>
+	
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+	
+
+<div *ngFor="let rows of rows.num"> 
+<row *ngFor="let divs of block.perRow">
+	<div class="ind"> </div>
+</row> 
+</div>
+
+
+<div *ngFor="let extras of rows.exta"> <div class="ind"></div></div>
